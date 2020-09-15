@@ -1,0 +1,75 @@
+$primary : #288855;
+.nav-tabs  a{
+  color:#444444;
+  margin-right: 5px;
+}
+.nav-tabs .active a{
+  color:$primary;
+  margin-right: 5px;
+}
+.save-changes {
+    height: 40px;
+    width: 154px;
+    border-radius: 4px;
+    background-color: $primary;
+    color: #FFFFFF;
+    font-family: "Apercu Pro";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+.cancel {
+    height: 40px;
+    width: 154px;
+    border-radius: 4px;
+    background-color: #fff;
+    color:$primary;
+    border-color:$primary;
+    font-family: "Apercu Pro";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+.skills {
+    height: 28px;
+    color: #262627;   
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+.score{
+    
+    width: 563px;
+  }
+.score-input{
+    box-sizing: border-box;
+  height: 26px;
+  width: 66px;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+.grade{   
+    width: 43px;
+    color: #444444;
+    margin-left: 5px;
+    font-size: 18px;
+    letter-spacing: 0;
+   
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: $primary;
+    border: none !important;
+    /* background-color: #fff; */
+    // /* border-color: #dee2e6 #dee2e6 #fff; */
+}
+.dashed{
+  border-top: 1.5px dashed #C6C6C6;
+  margin: 0 15px;
+}
+.leave-info{
+  color: #0f0f1f;
+  font-size: 15px;
+}

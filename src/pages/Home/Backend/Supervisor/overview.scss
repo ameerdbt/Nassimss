@@ -1,0 +1,60 @@
+.profile-box {
+  min-height: 250px;
+}
+.card {
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.card-title {
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.personal-info {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.edit-icon {
+  background-color: #eee;
+  border: 1px solid #e3e3e3;
+  border-radius: 24px;
+  color: #bbb;
+  float: right;
+  font-size: 12px;
+  line-height: 24px;
+  min-height: 26px;
+  text-align: center;
+  width: 26px;
+}
+.label {
+  height: 27px;
+  color: #767676;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.p-info {
+  height: 27px;
+  color: #262627;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+.supervisor {
+  padding: 2px 35px 5px;
+  border-radius: 15.5px;
+  background-color: rgba(232, 55, 16, 0.2);
+  color: #e83710;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-top: 7px;
+}
+
+.top {
+  margin-top: 7em;
+}

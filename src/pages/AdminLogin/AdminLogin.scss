@@ -1,0 +1,162 @@
+$primary: #288855;
+$secondary: #ffffff;
+$tertiary: #a5d6a7;
+.account-page {
+  align-items: center;
+  display: flex;
+}
+
+.account-page .main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  // height: 100%;
+}
+.account-content {
+  padding: 20px 0;
+}
+.account-title {
+  height: 51px;
+  width: 97px;
+  color: #444444;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 55px;
+  // text-align: center;
+}
+.account-subtitle {
+  color: #4c4c4c;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.account-box {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  overflow: hidden;
+  width: 480px;
+}
+.account-wrapper {
+  padding: 30px;
+}
+.account-logo {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.account-box .form-group {
+  margin-bottom: 25px;
+}
+.account-box .account-btn {
+  background: $primary;
+  // background: -moz-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: -webkit-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: -ms-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: linear-gradient(to right, #00c5fb 0%, #0253cc 100%);
+  border: 0;
+  color: $secondary;
+  border-radius: 4px;
+  display: block;
+  font-size: 22px;
+  padding: 10px 26px;
+  width: 100%;
+}
+.account-btnLoading {
+  background: $tertiary;
+  // background: -moz-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: -webkit-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: -ms-linear-gradient(left, #00c5fb 0%, #0253cc 100%);
+  // background: linear-gradient(to right, #00c5fb 0%, #0253cc 100%);
+  border: 0;
+  color: $secondary;
+  border-radius: 4px;
+  display: block;
+  font-size: 22px;
+  padding: 10px 26px;
+  width: 100%;
+}
+.account-box .account-btn:hover,
+.account-box .account-btn:focus {
+  border: 0;
+  opacity: 0.8;
+  // background: $primary;
+}
+.account-box .form-control {
+  background-color: #fbfbfb;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  height: 46px;
+}
+.account-box label {
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.account-logo img {
+  width: 100px;
+}
+.account-footer {
+  text-align: center;
+}
+.account-footer p {
+  margin-bottom: 0;
+}
+.account-footer a {
+  color: #00c5fb;
+}
+.account-footer a:hover {
+  color: #00c5fb;
+}
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: 0.5em;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.forgotPassword {
+  height: 23px;
+  width: 183px;
+  color: #288855;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+.forgotPassword:hover {
+  height: 23px;
+  width: 183px;
+  color: #288855;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+.email {
+  height: 29px;
+  width: 57px;
+  color: #444444;
+  font-family: Poppins;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+}
+.password {
+  height: 29px;
+  width: 101px;
+  color: #444444;
+  font-family: Poppins;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+}

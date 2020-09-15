@@ -1,0 +1,143 @@
+.table {
+  background: fff;
+  margin-bottom: 10em;
+}
+.table-bordered thead td,
+.table-bordered thead th {
+  border-bottom: none;
+  color: #444444;
+}
+.table td,
+.table th {
+  padding-top: 1.7rem;
+}
+.cellActive {
+  height: 28px;
+  width: 90px;
+  border-radius: 14px;
+  background-color: #ccf1db;
+  color: #01c04f;
+  padding-top: 3px;
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: center;
+}
+.cellNone {
+  height: 28px;
+  width: 90px;
+  border-radius: 14px;
+  background-color: #cce5ff;
+  color: #004085;
+  padding-top: 3px;
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: center;
+}
+.cellPending {
+  height: 28px;
+  width: 90px;
+  border-radius: 14px;
+  color: #856404;
+  background-color: #fff3cd;
+  padding-top: 3px;
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: center;
+}
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.mask {
+  box-sizing: border-box;
+  width: 51px;
+  margin-right: 2em;
+  border: 1px solid #fafafa;
+  background-color: #ffffff;
+}
+.search-scheme {
+  box-sizing: border-box;
+  height: 51px;
+  width: 381px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.click-to-view-benefi {
+  height: 26px;
+  width: 206px;
+  color: #288855;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-decoration: underline;
+  line-height: 26px;
+}
+.click-to-view-benefi:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fa-ellipsis-v {
+  font-size: 20px;
+}
+.react-bootstrap-table table {
+  border: 1px solid #dee2e6;
+}
+.active-schemes {
+  height: 29px;
+  width: 171px;
+  color: #288855;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+.pending-schemes {
+  height: 29px;
+  width: 171px;
+  color: #a5a5a5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.green-border {
+  box-sizing: border-box;
+  height: 51px;
+  width: 181px;
+  border: 1px solid #288855;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #288855;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding-top: 10px;
+  line-height: 26px;
+}
+.green-border i {
+  font-size: 18px;
+}
+.grey-btn {
+  box-sizing: border-box;
+  margin-top: -10px;
+  width: 103px;
+  padding: 7px 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
